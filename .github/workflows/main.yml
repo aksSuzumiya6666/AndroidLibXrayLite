@@ -35,7 +35,7 @@ jobs:
       with:
         log-accepted-android-sdk-licenses: false
         cmdline-tools-version: '13114758'
-        packages: 'platforms;android-35 build-tools;35.0.2 platform-tools'
+        packages: 'platforms;android-35 build-tools;35.0.0 platform-tools'
 
     - name: Install NDK
       run: |
